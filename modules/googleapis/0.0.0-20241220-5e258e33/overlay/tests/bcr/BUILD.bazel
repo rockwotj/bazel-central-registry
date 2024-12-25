@@ -1,4 +1,4 @@
-load(":failure_test.bzl", "cc_proto_library_fails_with_message_test")
+load(":failure_test.bzl", "php_proto_library_fails_with_message_test")
 
 alias(
     name = "bytestream_proto",
@@ -6,13 +6,18 @@ alias(
 )
 
 alias(
-    name = "bytestream_java_proto",
-    actual = "@googleapis//google/bytestream:bytestream_java_proto",
+    name = "bytestream_cc_proto",
+    actual = "@googleapis//google/bytestream:bytestream_cc_proto",
 )
 
 alias(
     name = "bytestream_go_proto",
     actual = "@googleapis//google/bytestream:bytestream_go_proto",
+)
+
+alias(
+    name = "bytestream_java_proto",
+    actual = "@googleapis//google/bytestream:bytestream_java_proto",
 )
 
 alias(
@@ -30,7 +35,7 @@ alias(
     actual = "@googleapis//google/spanner/v1:spanner_java_grpc",
 )
 
-cc_proto_library_fails_with_message_test(
-    name = "bytestream_cc_proto_library_fails_with_message_test",
-    target_under_test = "@googleapis//google/bytestream:bytestream_cc_proto",
+php_proto_library_fails_with_message_test(
+    name = "php_proto_library_fails_with_message_test",
+    target_under_test = "@googleapis//google/bytestream:bytestream_php_proto",
 )

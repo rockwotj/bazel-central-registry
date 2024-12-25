@@ -10,8 +10,8 @@
         "private/extensions/fail_macro.bzl": "sha256-Ux6k9i7qKn7Y0gT1LFnHZiTGuPid7m1p3PncsnK8/iU=",
         "private/extensions/switched_rules.bzl": "sha256-v8KqUuRupCid/jMiny6J/qYgbP2uRORrnC9rIWOwCTE=",
         "tests/bcr/.bazelrc": "sha256-hFZT+gits3VtXcUkKuh3NCEC9FgBNGuNxaOVCuOiFPk=",
-        "tests/bcr/BUILD.bazel": "sha256-SyxDBwLmV0c2ssGUSaHawNu8IDOXSGL/YaWsI4pnSbk=",
-        "tests/bcr/MODULE.bazel": "sha256-mBed9uTWcQM8aMMq9vOzprfoj6kmef5xj/Xl7PiDE6M=",
-        "tests/bcr/failure_test.bzl": "sha256-QV38fwhaAPQStLQr06YGR1NDE/lsgnTs4cDjR/oDpl8="
+        "tests/bcr/BUILD.bazel": "sha256-KZzDURLUNDOiMsurUHrnuWYogHPFs7W+Ar9ZrilPLuE=",
+        "tests/bcr/MODULE.bazel": "sha256-9jtnEIcXJpG7TmZll5BFHSm3Mpq3TA8bq4nei7K1M3w=",
+        "tests/bcr/failure_test.bzl": "sha256-pKImfWiY7m3EB1w0n4C66/LABDBwTYr/2nqxoC+gvBc="
     }
 }
